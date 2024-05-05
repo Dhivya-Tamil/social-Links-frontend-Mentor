@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+}
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    padding: 15px;
+}
+.sub-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.place{
+    color: hsl(75, 94%, 57%);
+}
+.btn{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+}
+.btn button{
+    padding: 12px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width:376px){
+    .sub-container h3{
+        text-align: center;
+    }
+}
